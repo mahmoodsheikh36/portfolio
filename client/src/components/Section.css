@@ -1,0 +1,43 @@
+.section {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 60px;
+}
+
+.section.wrap_reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.section .right {
+    transform: rotate(2deg);
+    max-width: 350px;
+}
+
+.section .left {
+    max-width: 350px;
+    transform: rotate(-2deg);
+}
+
+.bordered {
+    border-radius: 30px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.second_section .section {
+    flex-wrap: wrap-reverse;
+}
+
+@media only screen and (max-width: 700px) {
+    .section .right {
+        transform: none;
+    }
+    .section .left {
+        transform: none;
+    }
+}

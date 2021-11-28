@@ -1,0 +1,28 @@
+.tracks_container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+    padding: 10px;
+    background-color: #28292a;
+}
+
+.track {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.track img {
+    width: 50px;
+    height: 50px;
+}
+
+.track_info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
