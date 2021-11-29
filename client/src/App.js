@@ -24,7 +24,7 @@ class App extends React.Component {
       <div className="header">
         <h2 className="highlighted">mahmood sheikh</h2>
         <div className="right_side">
-          <a href="/fullresume">full resume</a>
+          <a href="/public/resume.pdf" download>full résumé</a>
           <a href="https://trackifyapp.net">trackify</a>
           <a href="https://github.com/mahmoodsheikh36">github</a>
           <a href="mailto:mahmod.m2015@gmail.com "className="special">mail me</a>
@@ -92,7 +92,7 @@ class App extends React.Component {
       </div>
 
       <div className="resume_btn_container">
-        <a className="resume_btn" href="/resume">full résumé</a>
+        <a className="resume_btn" href="/public/resume.pdf" download>full résumé</a>
       </div>
     </div>
   }
