@@ -31,7 +31,7 @@ export default class Trackify extends Component {
     if (topTracks.length > 0) {
       return (
         <div className="tracks_container bordered">
-          {topTracks.map(track => (
+          {topTracks.slice(4).map(track => (
             <div class="track">
               <img src={track.image_url} />
               <div class="track_info">
