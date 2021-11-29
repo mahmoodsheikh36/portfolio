@@ -42,13 +42,13 @@ class App extends React.Component {
         <div className="left">
           <p className="title">Technology Enthusiast</p>
           <p>
-            in summery, im a 19 year old who really enjoys studying/using computers/software or any type of technology
+            in summery, Im a 19 year old who really enjoys studying/using computers/software or any type of technology
             <br/>
             <br/>
-            im doing my bachelor's degree in computer science and maths and am looking to work in hitech as a student
+            Im doing my bachelor's degree in computer science and maths and am looking to work in hitech as a student
             <br/>
             <br/>
-            i already have 3 years of experience in working on games/webapps/unix systems/mobile apps, etc...
+            I already have 3 years of experience in working on games/webapps/unix systems/mobile apps, etc...
           </p>
         </div>
         <img src="/public/me.jpg" className="bordered right"/>
@@ -67,10 +67,10 @@ class App extends React.Component {
             its a very sophisticated data collection service, it tracks your activity on spotify and displays it in beautiful charts for you to admire
           </p>
           <p>
-            the following list is built using data fetched from Trackify's api which i wrote and it uses JWT, Trackify's database is pretty complex and it took me quite some time to figure out the best structure for it
+            the following list is built using data fetched from Trackify's api which I wrote and it uses JWT, Trackify's database is pretty complex and it took me quite some time to figure out the best structure for it
           </p>
           <p>
-            the data is mostly caused by me and my friends from highschool which signed up for the service
+            the data is mostly caused by me and my friends from highschool who signed up for the service
           </p>
           <p>
             as is the case with most of my projects, you can find Trackify's <a href="https://github.com/mahmoodsheikh36/trackify" class="highlighted">source code</a> on my github page
@@ -84,10 +84,10 @@ class App extends React.Component {
           I am currently doing my Bachelors Degree in computer science & math
         </InfoCard>
         <InfoCard title="Experience" img="/public/programmer.webp">
-          I have worked on multiple private/commercial projects (including full-stack projects), i worked as a developer for multiple Runescape clones and was paid pretty well
+          I have worked on multiple private/commercial projects (including full-stack projects), I worked as a developer for multiple Runescape clones and was paid pretty well
         </InfoCard>
         <InfoCard title="Determination & Passion" img="/public/determination.jpg">
-          i am very passionate about computer science and i am always learning new stuff
+          I am very passionate about computer science and I am always learning new stuff
         </InfoCard>
       </div>
 
