@@ -31,7 +31,7 @@ class App extends React.Component {
           <i className="fas fa-bars dropdown_btn" onClick={this.toggleMenu}></i>
         </div>
         <div ref={this.menuRef} className='dropdown_menu'>
-          <a href="/fullresume">full resume</a>
+          <a href="/public/resume.pdf" download>full resume</a>
           <a href="https://trackifyapp.net">trackify</a>
           <a href="https://github.com/mahmoodsheikh36">github</a>
           <a href="mailto:mahmod.m2015@gmail.com">mail me</a>
