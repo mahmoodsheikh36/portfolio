@@ -84,7 +84,7 @@ class App extends React.Component {
           I am currently doing my Bachelors Degree in computer science & math
         </InfoCard>
         <InfoCard title="Experience" img="/public/programmer.webp">
-          I have worked on multiple private/commercial projects (including full-stack projects), I worked as a developer for multiple Runescape clones and was paid pretty well
+          I have worked on multiple private/commercial projects (including full-stack projects)
         </InfoCard>
         <InfoCard title="Determination & Passion" img="/public/determination.jpg">
           I am very passionate about computer science and I am always learning new stuff
